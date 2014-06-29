@@ -1,0 +1,38 @@
+﻿生成启动时间为 2014/5/27 16:19:22。
+     1>项目“C:\Users\Tang\Documents\Visual Studio 2010\Projects\recognitionServer\recognitionServer.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\recognitionServer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\Program Files\MySQL\MySQL Server 5.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\recognitionServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt recognitionServer.cpp
+         recognitionServer.cpp
+     1>f:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\tang\documents\visual studio 2010\projects\recognitionserver\recognitionserver.cpp(30): warning C4091: “typedef ”: 没有声明变量时忽略“Face”的左侧
+     1>c:\users\tang\documents\visual studio 2010\projects\recognitionserver\recognitionserver.cpp(327): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\tang\documents\visual studio 2010\projects\recognitionserver\recognitionserver.cpp(368): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\tang\documents\visual studio 2010\projects\recognitionserver\recognitionserver.cpp(440): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>c:\users\tang\documents\visual studio 2010\projects\recognitionserver\recognitionserver.cpp(444): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tang\Documents\Visual Studio 2010\Projects\mfcRecognition\Debug\recognitionServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:mysql/lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_core248d.lib opencv_highgui248d.lib opencv_video248d.lib opencv_ml248d.lib opencv_legacy248d.lib opencv_imgproc248d.lib /MANIFEST /ManifestFile:"Debug\recognitionServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Tang\Documents\Visual Studio 2010\Projects\mfcRecognition\Debug\recognitionServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tang\Documents\Visual Studio 2010\Projects\mfcRecognition\Debug\recognitionServer.lib" /MACHINE:X86 Debug\recognitionServer.exe.embed.manifest.res
+         Debug\facedata.obj
+         Debug\recognitionServer.obj
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\recognitionServer.exe.embed.manifest" /manifest Debug\recognitionServer.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         recognitionServer.vcxproj -> C:\Users\Tang\Documents\Visual Studio 2010\Projects\mfcRecognition\Debug\recognitionServer.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\recognitionServer.unsuccessfulbuild”。
+         正在对“Debug\recognitionServer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Tang\Documents\Visual Studio 2010\Projects\recognitionServer\recognitionServer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.94
